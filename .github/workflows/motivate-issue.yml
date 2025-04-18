@@ -1,0 +1,18 @@
+name: Motivate Issue
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  motivate:
+    if: github.event.label.name == 'motivate'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Ejecutar Motivational Action
+        uses: ./actions/motivate-action
+        with:
+          issue_number: ${{ github.event.issue.number }}

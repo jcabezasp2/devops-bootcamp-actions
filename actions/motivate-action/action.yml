@@ -1,0 +1,10 @@
+name: "Motivational Quote Action"
+description: "Imprime un mensaje motivacional cuando una issue tenga la etiqueta 'motivate'."
+author: "Tu Nombre"
+inputs:
+  issue_number:
+    description: "Número de la issue"
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"

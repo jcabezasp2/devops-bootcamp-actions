@@ -1,0 +1,14 @@
+{
+  "name": "motivate-action",
+  "version": "1.0.0",
+  "description": "Imprime un mensaje motivacional cuando una issue tenga la etiqueta 'motivate'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "axios": "^1.4.0"
+  }
+}
