@@ -1,6 +1,6 @@
 name: "Motivational Quote Action"
 description: "Imprime un mensaje motivacional cuando una issue tenga la etiqueta 'motivate'."
-author: "Tu Nombre"
+author: "Jcp"
 inputs:
   issue_number:
     description: "Número de la issue"
