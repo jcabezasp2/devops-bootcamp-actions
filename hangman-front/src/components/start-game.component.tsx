@@ -13,7 +13,7 @@ export const StartGameComponent = () => {
   return (
     <>
       <h1>Start Hangman</h1>
-      <h2>Please select a topic to start playing</h2>
+      <h2>Select a topic to start playing</h2>
       <ul>{(topics && topics.length) > 0 && topics.map((t, i) => <li key={i}>{t}</li>)}</ul>
     </>
   );
